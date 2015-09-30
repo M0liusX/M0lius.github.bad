@@ -1,0 +1,170 @@
+body {
+  background-color: #0f0f0f;
+  font: 400 1em/1.38 'Roboto Condensed';
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  position: relative;
+  float: left;
+  width: 17%;
+  height: 1100px;
+  margin-left: 60px;
+}
+
+.container .element {
+  left: 0;
+  width: 204px;
+}
+
+.container .text {
+  font-size: 1em;
+}
+
+.element {
+  position: absolute;
+}
+
+.text {
+  position: absolute;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.text-1 p {
+  margin-bottom: 1em;
+}
+
+.element-1 {
+  top: 0;
+  z-index: 4;
+  height: 100px;
+  background-color: #236b8e;
+}
+
+.element-2 {
+  top: 100px;
+  z-index: 3;
+  height: 1000px;
+  background-color: #dc143c;
+}
+
+.element-3 {
+  top: 0;
+  left: 264px;
+  z-index: 1;
+  width: 1000px;
+  height: 100px;
+  background-color: rgb(222, 222, 222);
+}
+
+.element-4 {
+  top: 100px;
+  left: 264px;
+  width: 1000px;
+  height: 1500px;
+  background-color: rgb(222, 222, 222);
+}
+
+.text-1 {
+  top: 100px;
+  left: 0;
+  z-index: 6;
+  padding-top: 30px;
+  padding-left: 35px;
+  font-weight: 400;
+}
+
+.text-2 {
+  top: 26px;
+  left: 36px;
+  z-index: 5;
+  font-weight: 700;
+}
+
+.text-3 {
+  top: 22px;
+  left: 627px;
+  z-index: 2;
+  font-size: 2.625em;
+  font-weight: 400;
+}
+
+.text span {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.text a,
+.text strong {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.text-1 a {
+  font-size: 1.313em;
+  font-weight: 700;
+}
+
+.text-1 span {
+  font-size: 1.313em;
+  font-weight: 700;
+  letter-spacing: 0;
+  word-spacing: 1px;
+}
+
+.text-2 span {
+  font-size: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+}
+
+.text-2 a,
+.text-2 strong {
+  font-size: 2.125em;
+  font-weight: inherit;
+}
+
+.text-3 strong {
+  font-size: inherit;
+  font-weight: 700;
+}
