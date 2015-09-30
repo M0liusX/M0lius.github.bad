@@ -5,11 +5,12 @@ body {
 }
 
 .container {
-  position: relative;
-  float: left;
+  position: fixed;
+  top: 0;
+  left: 60px;
+  z-index: 7;
   width: 17%;
   height: 1100px;
-  margin-left: 60px;
 }
 
 .container .element {
