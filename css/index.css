@@ -8,22 +8,13 @@ body {
   position: fixed;
   top: 0;
   left: 60px;
-  z-index: 7;
+  z-index: 9;
   width: 17%;
   height: 1100px;
 }
 
-.container .element {
-  left: 0;
-  width: 204px;
-}
-
 .container .text {
   font-size: 1em;
-}
-
-.element {
-  position: absolute;
 }
 
 .text {
@@ -37,40 +28,68 @@ body {
 }
 
 .element-1 {
+  float: left;
+  width: 29.4117647058%;
+  height: 1100px;
+  margin-left: -60px;
+  background-color: #0f0f0f;
+}
+
+.element-2 {
+  position: absolute;
   top: 0;
-  z-index: 4;
+  left: 0;
+  z-index: 5;
+  width: 204px;
   height: 100px;
   background-color: #236b8e;
 }
 
-.element-2 {
+.element-3 {
+  position: absolute;
   top: 100px;
-  z-index: 3;
-  height: 1000px;
+  left: 0;
+  z-index: 4;
+  width: 204px;
+  height: 1500px;
   background-color: #dc143c;
 }
 
-.element-3 {
+.element-4 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 5%;
+  height: 1100px;
+  background-color: #0f0f0f;
+}
+
+.element-5 {
+  position: absolute;
   top: 0;
   left: 264px;
   z-index: 1;
   width: 1000px;
   height: 100px;
   background-color: rgb(222, 222, 222);
+  overflow: hidden;
 }
 
-.element-4 {
+.element-6 {
+  position: absolute;
   top: 100px;
   left: 264px;
   width: 1000px;
   height: 1500px;
   background-color: rgb(222, 222, 222);
+  overflow: hidden;
 }
 
 .text-1 {
   top: 100px;
   left: 0;
-  z-index: 6;
+  z-index: 7;
   padding-top: 30px;
   padding-left: 35px;
   font-weight: 400;
@@ -79,7 +98,7 @@ body {
 .text-2 {
   top: 26px;
   left: 36px;
-  z-index: 5;
+  z-index: 6;
   font-weight: 700;
 }
 
